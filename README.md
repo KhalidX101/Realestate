@@ -1,4 +1,2 @@
-# Realestate
-go through property list and send a message saying you are interested in property, same for all property list and to next page
-
-working with selenium automating web browser to open a realestate.com.au page clicking on search and opening firt image , write a message that said you are interested in the property goes back with (browser.back() ) and loop over the next image and repeat same process
+I am working on this little project with Selenium and i need a help looping over the image list on the page .
+it is a real estate website, so i wrote a code that will automate the browser ,2. Open the the website (https://realestate.com.au ), 3. Click on search to search for available properties, 4 . click on first property in the list using find_element_by_xpath , 4 . fill out the property request form and send, 5 . Back to the property list and perform same steps
